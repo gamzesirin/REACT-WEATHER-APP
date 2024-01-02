@@ -1,0 +1,69 @@
+#root {
+	max-width: 1280px;
+	margin: 0 auto;
+	padding: 2rem;
+	text-align: center;
+}
+
+@keyframes logo-spin {
+	from {
+		transform: rotate(0deg);
+	}
+	to {
+		transform: rotate(360deg);
+	}
+}
+
+@media (prefers-reduced-motion: no-preference) {
+	a:nth-of-type(2) .logo {
+		animation: logo-spin infinite 20s linear;
+	}
+}
+
+.app-container {
+	max-width: 600px;
+	margin: 0 auto;
+	padding: 30px;
+	text-align: center;
+}
+
+.app-title {
+	font-size: 30px;
+	margin-bottom: 27px;
+}
+
+.input-container {
+	margin-bottom: 18px;
+}
+
+.input-city {
+	padding: 20px;
+	width: 100%;
+	border: none;
+	border-radius: 15px;
+	background-color: aliceblue;
+	color: #4e6594;
+	box-shadow: 0 2px 4px rgba(233, 238, 240, 0.1);
+	outline: none;
+}
+
+.weather-container {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 10px;
+	padding: 10px;
+}
+
+.day-container {
+	margin: 10px;
+	padding: 10px;
+	width: 400px;
+	border-radius: 20px;
+	box-shadow: 2px 2px 2px 2px rgba(255, 255, 255, 0.1);
+	text-align: center;
+	background-color: rgb(129, 190, 243);
+}
+.temperature {
+	font-size: 20px;
+}
